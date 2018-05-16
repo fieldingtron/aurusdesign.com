@@ -19,7 +19,7 @@ address_line_1 = "Villarica, Chile"
 address_line_2 = ""
 jumprock_alias = ""    ## checkout jumprock.co for an alternative to formspree.io
 contact_me_header = ""  ## could write this in spanish 
-footer_right = "Accepto pagos con <a href='https://paypal.me/MariaPintoaller'>Paypal</a>"
+footer_right = ""
 
 # add redirects/headers
 [outputs]
