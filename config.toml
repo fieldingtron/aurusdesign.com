@@ -1,10 +1,10 @@
-baseURL = "/"
+baseURL = "https://www.aurusdesign.com/"
 languageCode = "en-us"
 title = "Aurus Design"
 disableHugoGeneratorInject = true
 disableKinds = ["taxonomyTerm"]
 
-enableRobotsTXT = true
+enableRobotsTXT = false
 disableAliases = true
 
 [params]
@@ -18,7 +18,8 @@ about_text_2 = "Nuestra empresa está compuesta por profesionales jóvenes cuyo 
 address_line_1 = "Villarica, Chile"
 address_line_2 = ""
 jumprock_alias = ""    ## checkout jumprock.co for an alternative to formspree.io
-contact_me_header = ""
+contact_me_header = ""  ## could write this in spanish 
+footer_right = "Accepto pagos con <a href='https://paypal.me/MariaPintoaller'>Paypal</a>"
 
 # add redirects/headers
 [outputs]
