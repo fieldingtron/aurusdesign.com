@@ -2,9 +2,11 @@
     <!-- Header -->
     <header class="masthead bg-primary text-white text-center">
       <div class="container">
-        <img class="img-fluid mb-5 d-block mx-auto" src="images/profile.png" alt="">
-        <h1 class="text-uppercase mb-0">{{.Site.Params.jumboHeader}}</h1>
-        <hr class="star-light">
+        <img class="img-fluid mb-5 d-block mx-auto" src="/images/AurusProfile2.png" alt="">
+<!--         <h1 class="text-uppercase mb-0">{{.Site.Params.jumboHeader}}</h1>
+ -->        
+ <img class="img-fluid mt-3  mb-5 d-block mx-auto" width="250" src="/images/line-circle.png" alt="">
+
         <h2 class="font-weight-light mb-0">{{.Site.Params.tagline}}</h2>
       </div>
     </header>
@@ -13,7 +15,7 @@
     <section class="portfolio" id="portfolio">
       <div class="container">
         <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
-        <hr class="star-dark mb-5">
+        <img class="img-fluid mt-3  mb-5 d-block mx-auto" width="250" src="/images/line-circle-oscuro.png" alt="">
         <div class="row">
         {{ $.Scratch.Set "count" 1 }}
         {{ range first 6 (where .Site.Pages "Section" "in" (slice "logos")) }} 
@@ -45,7 +47,7 @@
     <section class="bg-primary text-white mb-0" id="about">
       <div class="container">
         <h2 class="text-center text-uppercase text-white">{{.Site.Params.about_text_heading}}</h2>
-        <hr class="star-light mb-5">
+        <img class="img-fluid mt-4 mb-5 d-block mx-auto" width="250" src="/images/line-circle.png" alt="">
         <div class="row">
           <div class="col-lg-4 ml-auto">
             <p class="lead"> {{.Site.Params.about_text_1}} </p>
@@ -54,12 +56,7 @@
             <p class="lead"> {{.Site.Params.about_text_2}} </p>
           </div>
         </div>
-        <div class="text-center mt-4">
-          <a class="btn btn-xl btn-outline-light" href="#">
-            <i class="fa fa-download mr-2"></i>
-            Download Now!
-          </a>
-        </div>
+        
       </div>
     </section>
 
