@@ -1,5 +1,5 @@
 {{ $.Scratch.Set "count" 1 }}
-{{ range first 6 (where .Site.Pages "Section" "in" (slice "logos")) }} 
+{{ range first 8 (where .Site.Pages "Section" "in" (slice "logos")) }} 
 
 <!-- Portfolio Modal 1 -->
 <div class="portfolio-modal mfp-hide" id="portfolio-modal-{{$.Scratch.Get "count"}}">
